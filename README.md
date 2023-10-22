@@ -10,7 +10,7 @@ This repository contains the R Markdown code and analysis for a study conducted 
 - [Data](#data)
 - [Analysis](#analysis)
 - [Results](#results)
-[Additional Analysis] (#additional-analysis)
+- [Additional Analysis] (#additional-analysis)
 - [Conclusion](#conclusion)
 
 ## Introduction
