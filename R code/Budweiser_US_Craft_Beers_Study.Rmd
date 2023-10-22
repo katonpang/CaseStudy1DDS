@@ -1,6 +1,6 @@
 ---
 title: "Project - Budweiser US Craft Beers Study"
-author: "Katon Pang"
+author: "Katon Pang/Troy McSimov"
 date: "`r Sys.Date()`"
 output: html_document
 ---
