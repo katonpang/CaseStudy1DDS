@@ -52,3 +52,66 @@ For a detailed walkthrough of the analysis, please refer to the R Markdown docum
 ---
 Author: Katon Pang
 Date: [10/21/2023]
+
+
+
+This repository contains an R Markdown file (Budweiser_US_Craft_Beers_Study.Rmd) that analyzes and visualizes data related to US craft beers. The analysis uses two datasets: Beers_updated_2.csv and Breweries.csv.
+
+## Analysis
+
+The R Markdown file (Budweiser_US_Craft_Beers_Study.Rmd) contains the code for the analysis, including data loading, cleaning, and visualization. You can run the R Markdown file to reproduce the analysis and generate the results.
+
+## Datasets
+
+The analysis uses two datasets:
+
+1. **Beers_updated_2.csv**: This dataset contains information about different beers, including their names, breweries, styles, IBU (International Bitterness Units), and ABV (Alcohol by Volume).
+
+2. **Breweries.csv**: This dataset provides information about the breweries, including their names, cities, and states.
+
+## How to Use
+
+1. Clone this repository to your local machine.
+2. Open and run the R Markdown file (Budweiser_US_Craft_Beers_Study.Rmd) in R or RStudio to reproduce the analysis.
+
+## Codebook
+
+### Beers_updated_2.csv
+
+**Variables:**
+
+1. `beer_id` (Integer): Unique identifier for each beer.
+2. `name` (Character): The name of the beer.
+3. `brewery_id` (Integer): The identifier of the brewery that produces the beer.
+4. `state` (Character): The state in which the brewery is located.
+5. `style` (Character): The style or type of beer.
+6. `ibu` (Numeric): International Bitterness Units (IBU) measure, representing the bitterness of the beer.
+7. `abv` (Numeric): Alcohol by Volume (ABV) percentage, indicating the alcoholic content of the beer.
+
+**Description:**
+
+- `beer_id` is a unique identifier for each beer in the dataset.
+- `name` is the name of the beer.
+- `brewery_id` is the identifier of the brewery that produces the beer.
+- `state` is the state in which the brewery is located.
+- `style` describes the style or type of beer (e.g., Lager, IPA, Stout, etc.).
+- `ibu` represents the International Bitterness Units (IBU) for each beer, quantifying its bitterness.
+- `abv` is the Alcohol by Volume (ABV) percentage, showing the alcoholic content of the beer.
+
+### Breweries.csv
+
+**Variables:**
+
+1. `brewery_id` (Integer): Unique identifier for each brewery.
+2. `name` (Character): The name of the brewery.
+3. `city` (Character): The city where the brewery is located.
+4. `state` (Character): The state in which the brewery is located.
+
+**Description:**
+
+- `brewery_id` is a unique identifier for each brewery.
+- `name` is the name of the brewery.
+- `city` is the city where the brewery is situated.
+- `state` represents the state in which the brewery is located.
+
+This codebook provides an explanation of each variable in the datasets used in the analysis, along with a brief description of their meaning and data types. It serves as a reference to understand the data and variables involved in the "Budweiser US Craft Beers Study."
