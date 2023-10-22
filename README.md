@@ -34,6 +34,13 @@ Budweiser_US_Craft_Beers_Study.Rmd contains the code for the analysis, including
 
 ## Codebook
 
+**The project was run on:**
+R version 4.3.1 (2023-06-16 ucrt)  
+Integrated development environment (IDE): RStudio 2023.06.1+524 "Mountain Hydrangea" Release (547dcf861cac0253a8abb52c135e44e02ba407a1, 2023-07-07) for windows
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) RStudio/2023.06.1+524 Chrome/110.0.5481.208 Electron/23.3.0 Safari/537.36  
+Platform: x86_64-w64-mingw32/x64 (64-bit)  
+Running under: Windows 10 x64 (build 19045)  
+
 ### Beers_updated_2.csv
 
 **Variables:**
