@@ -80,9 +80,9 @@ This file was exported from the R Markdown file after Beers_updated_2.csv and Br
 
 The analysis is divided into several items, including:
 
-1. Number of Breweries by State: A bar chart displaying the number of craft beer breweries in each US state
-2. Merging Beer and Brewery Data: Merging beer data with brewery data to associate beers with their respective breweries
-3. Handling Missing Values: Addressing missing values in the datasets and imputing missing IBU values
+1. Number of Breweries by State: A bar chart displaying the number of craft beer breweries in each US state.
+2. Merging Beer and Brewery Data: Merging beer data with brewery data to associate beers with their respective breweries.
+3. Handling Missing Values: Addressing missing values in the datasets and imputing missing IBU values.
 4. **Median ABV and IBU by State**: computing the median alcoholic content and bitterness for each US state and visualizing the results.
 5. **Maximum ABV and IBU Beers**: Identifying the states with the maximum alcoholic (ABV) and most bitter (IBU) beers
 6. **ABV Distribution**: Analyzing the distribution of alcoholic content (ABV) in the dataset
