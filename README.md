@@ -26,7 +26,7 @@ Budweiser provided our team with data and asked us to conduct a study on US craf
 ## Data
 
 The analysis uses two datasets:
-- `Beers_updated_2.csv`: Contains information about different craft beers, including ABV, IBU, style, and more.
+- `Beers_updated_2.csv`: Contains information about different craft beers, including ABV, IBU, style, and more. This file is an update from the original data set Beers.csv with some of the missing ABV values populated after research, but it still has the missing IBU values.
 - `Breweries.csv`: Provides details about breweries, including their name and location.
 
 Budweiser_US_Craft_Beers_Study.Rmd contains the code for the analysis, including data loading, cleaning, and visualization. You can run the R Markdown file to reproduce the analysis and generate the results.  
