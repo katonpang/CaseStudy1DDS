@@ -99,5 +99,5 @@ The analysis provides insights into the world of US craft beers, their character
 For a detailed walkthrough of the analysis, please refer to the R Markdown document.
 
 ---
-Author: Katon Pang
+Author: Katon Pang and Troy McSimov
 Date: [10/21/2023]
