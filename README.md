@@ -26,7 +26,7 @@ Budweiser provided our team with data and asked us to conduct a study on US craf
 ## Data
 
 The analysis uses two datasets:
-- `Beers_updated_2.csv`: Contains information about different craft beers, including ABV, IBU, style, and more. This file is an update from the original data set Beers.csv with some of the missing ABV values populated after research, but it still has the missing IBU values.
+- `Beers_updated_2.csv`: Contains information about different craft beers, including ABV, IBU, style, and more. This file is an update from the originally provided data set Beers.csv with some of the missing ABV values populated after research, but it still has the missing IBU values.
 - `Breweries.csv`: Provides details about breweries, including their name and location.
 
 Budweiser_US_Craft_Beers_Study.Rmd contains the code for the analysis, including data loading, cleaning, and visualization. You can run the R Markdown file to reproduce the analysis and generate the results.  
@@ -47,29 +47,29 @@ Budweiser_US_Craft_Beers_Study.Rmd contains the code for the analysis, including
 
 **Description:**
 
-- `beer_id` is a unique identifier for each beer in the dataset.
-- `name` is the name of the beer.
-- `brewery_id` is the identifier of the brewery that produces the beer.
-- `state` is the state in which the brewery is located.
-- `style` describes the style or type of beer (e.g., Lager, IPA, Stout, etc.).
-- `ibu` represents the International Bitterness Units (IBU) for each beer, quantifying its bitterness.
-- `abv` is the Alcohol by Volume (ABV) percentage, showing the alcoholic content of the beer.
+- `Name` is the name of the beer.
+- `Beer_ID` is a unique identifier for each beer in the dataset.
+- `ABV` is the Alcohol by Volume (ABV) percentage, showing the alcoholic content of the beer.
+- `IBU` represents the International Bitterness Units (IBU) for each beer, quantifying its bitterness.
+- `Brewery_id` is the identifier of the brewery that produces the beer.
+- `Style` describes the style or type of beer (e.g., Lager, IPA, Stout, etc.).
+- `Ounces` is the volume of beer in a fluid ounce.
 
 ### Breweries.csv
 
 **Variables:**
 
-1. `brewery_id` (Integer): Unique identifier for each brewery.
-2. `name` (Character): The name of the brewery.
-3. `city` (Character): The city where the brewery is located.
-4. `state` (Character): The state in which the brewery is located.
+1. `Brew_ID` (Integer): Unique identifier for each brewery.
+2. `Name` (Character): The name of the brewery.
+3. `City` (Character): The city where the brewery is located.
+4. `State` (Character): The state in which the brewery is located.
 
 **Description:**
 
-- `brewery_id` is a unique identifier for each brewery.
-- `name` is the name of the brewery.
-- `city` is the city where the brewery is situated.
-- `state` represents the state in which the brewery is located.
+- `Brew_ID` is a unique identifier for each brewery.
+- `Name` is the name of the brewery.
+- `City` is the city where the brewery is situated.
+- `State` represents the state in which the brewery is located.
 
 ## Analysis
 
