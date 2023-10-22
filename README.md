@@ -37,9 +37,9 @@ Budweiser_US_Craft_Beers_Study.Rmd contains the code for the analysis, including
 
 **Variables:**
 
-1. `beer_id` (Integer): Unique identifier for each beer.
-2. `name` (Character): The name of the beer.
-3. `brewery_id` (Integer): The identifier of the brewery that produces the beer.
+1. `Name` (Character): The name of the beer.
+2. `Beer_ID` (Integer): Unique identifier for each beer.
+
 4. `state` (Character): The state in which the brewery is located.
 5. `style` (Character): The style or type of beer.
 6. `ibu` (Numeric): International Bitterness Units (IBU) measure, representing the bitterness of the beer.
