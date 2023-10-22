@@ -3,6 +3,7 @@
 ## Overview
 
 Budweiser provided our team with data and asked us to conduct a study on US craft beers and their breweries. In this document, we addressed questions that Budweiser had and reported any interesting findings.  
+
 This repository contains the R Markdown code (Budweiser_US_Craft_Beers_Study.Rmd) and analysis for a study conducted on US craft beers and their breweries. The analysis explores various aspects of craft beers, including their alcoholic content (ABV), bitterness (IBU), and beer styles.
 
 ## Table of Contents
@@ -70,6 +71,10 @@ Budweiser_US_Craft_Beers_Study.Rmd contains the code for the analysis, including
 - `Name` is the name of the brewery.
 - `City` is the city where the brewery is situated.
 - `State` represents the state in which the brewery is located.
+
+### Beers_cleaned.csv
+
+This file was exported from the R Markdown file after Beers_updated_2.csv and Breweries.csv were merged, and data were wrangled. This is only for reference and is not required for the R Markdown file. 
 
 ## Analysis
 
